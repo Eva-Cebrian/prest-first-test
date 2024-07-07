@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
   from 'module:stproductcommentsviewstemplateshookstproductcomments.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f02e8206_18825822',
+  'unifunc' => 'content_668ab4d25d0de1_90019175',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stproductcomments/views/templates/hook/pcomments_write.tpl' => 1,
   ),
 ),false)) {
-function content_668a67f02e8206_18825822 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab4d25d0de1_90019175 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 ?>
 <!-- MODULE st stproductcomments -->

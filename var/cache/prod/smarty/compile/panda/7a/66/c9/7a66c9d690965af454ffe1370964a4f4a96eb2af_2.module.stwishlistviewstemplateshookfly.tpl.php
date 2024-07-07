@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
   from 'module:stwishlistviewstemplateshookfly.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0a6a299_27764768',
+  'unifunc' => 'content_668ab4d28550b5_06432088',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f0a6a299_27764768 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab4d28550b5_06432088 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stwishlist -->
 <a class="add_to_wishlist hover_fly_btn <?php if ((isset($_smarty_tpl->tpl_vars['classname']->value))) {?> <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['classname']->value, ENT_QUOTES, 'UTF-8');?>
  <?php }?> <?php if ((isset($_smarty_tpl->tpl_vars['fromnocache']->value)) && $_smarty_tpl->tpl_vars['fromnocache']->value && (isset($_smarty_tpl->tpl_vars['is_wished']->value)) && $_smarty_tpl->tpl_vars['is_wished']->value) {?> st_added <?php }?> pro_right_item stwish_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product']->value['id_product'], ENT_QUOTES, 'UTF-8');?>

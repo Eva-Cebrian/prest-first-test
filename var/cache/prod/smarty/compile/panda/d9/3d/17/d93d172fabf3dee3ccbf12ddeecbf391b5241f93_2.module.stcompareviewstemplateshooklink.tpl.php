@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
   from 'module:stcompareviewstemplateshooklink.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0859e84_17816399',
+  'unifunc' => 'content_668ab42a8a94f1_23615929',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f0859e84_17816399 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42a8a94f1_23615929 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stcompare -->
 <a href="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['stcompare']->value['url'], ENT_QUOTES, 'UTF-8');?>
 " title="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Product comparison','d'=>'Shop.Theme.Panda'),$_smarty_tpl ) );?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/miniatures/sticker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f09c9949_61669685',
+  'unifunc' => 'content_668ab4d2772887_45763358',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f09c9949_61669685 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab4d2772887_45763358 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('has_sticker_static', 0);
 if ((isset($_smarty_tpl->tpl_vars['stickers']->value)) && $_smarty_tpl->tpl_vars['stickers']->value) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['stickers']->value, 'ststicker');

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:37:43
   from 'module:stmegamenuviewstemplateshookstmobilemenu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0e71167_06051605',
+  'unifunc' => 'content_668ab6470d4c62_89999972',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668a67f0e71167_06051605 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab6470d4c62_89999972 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stmegamenu -->
 <div class="st-menu" id="side_stmobilemenu">
   <div class="st-menu-header flex_container">
@@ -36,7 +36,7 @@ function content_668a67f0e71167_06051605 (Smarty_Internal_Template $_smarty_tpl)
 <ul id="st_mobile_menu_ul" class="mo_mu_level_0">
 												<li id="st_mo_menu_2" class="mo_ml_level_0 mo_ml_column">
 						<div class="menu_a_wrap">
-			<a id="st_mo_ma_2" href="javascript:;" class="mo_ma_level_0" title="Custom block">Custom block</a>
+			<a id="st_mo_ma_2" href="javascript:;" class="mo_ma_level_0" title="VER CATEGORIAS">VER CATEGORIAS</a>
 			<span class="opener"><i class="fto-plus-2 plus_sign"></i><i class="fto-minus minus_sign"></i></span>			</div>
 																																													<div id="st_mo_menu_block_3" class="stmobilemenu_column style_content">
 									<h6 class="uppercase color_444" style="font-family:Vollkorn;">Welcome to panda theme</h6><p>Panda theme is a modern, clean and professional Prestashop theme, it comes with a lot of useful features. Panda theme is fully responsive, it looks stunning on all types of screens and devices.</p><ul class="desc"><li>Fully Customizable Design</li><li>Sidebar Shopping Cart</li></ul><p><a class="go" title="Buy this theme" href="#" target="_blank">BUY THIS THEME</a></p>

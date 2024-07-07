@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
   from 'module:stcustomersigninviewstemplateshookstcustomersignin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f082e5b9_44420534',
+  'unifunc' => 'content_668ab42a87d644_15529740',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f082e5b9_44420534 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42a87d644_15529740 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stcustomersignin -->
 <?php if ($_smarty_tpl->tpl_vars['logged']->value) {?>
 		<?php if ((isset($_smarty_tpl->tpl_vars['welcome_logged']->value)) && trim($_smarty_tpl->tpl_vars['welcome_logged']->value) || ((isset($_smarty_tpl->tpl_vars['steasybuilder']->value)) && $_smarty_tpl->tpl_vars['steasybuilder']->value['is_editing'])) {

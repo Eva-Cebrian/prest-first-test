@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/product-cover-item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f09dda48_43411962',
+  'unifunc' => 'content_668ab4d2793a82_70660824',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f09dda48_43411962 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab4d2793a82_70660824 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 ?>
               <div class="swiper-slide <?php if ($_smarty_tpl->tpl_vars['sttheme']->value['enable_zoom'] == 1 || ($_smarty_tpl->tpl_vars['sttheme']->value['enable_zoom'] == 2 && !$_smarty_tpl->tpl_vars['sttheme']->value['is_mobile_device'])) {?> swiper-no-swiping <?php }?>">

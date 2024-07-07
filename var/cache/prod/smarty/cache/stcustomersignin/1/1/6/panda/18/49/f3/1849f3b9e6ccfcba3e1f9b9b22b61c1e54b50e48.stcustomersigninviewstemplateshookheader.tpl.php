@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:37:42
   from 'module:stcustomersigninviewstemplateshookheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f03d7fa0_71409923',
+  'unifunc' => 'content_668ab646e51d75_12224579',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,6 +18,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668a67f03d7fa0_71409923 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab646e51d75_12224579 (Smarty_Internal_Template $_smarty_tpl) {
 }
 }

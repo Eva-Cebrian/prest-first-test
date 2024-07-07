@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/product-name.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f09740d1_20626290',
+  'unifunc' => 'content_668ab4d271b8b5_36514707',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,14 +22,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stvideo/views/templates/hook/stvideo_link.tpl' => 1,
   ),
 ),false)) {
-function content_668a67f09740d1_20626290 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab4d271b8b5_36514707 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <div class="product_name_wrap flex_container flex_start">
     <div class="flex_child">
     <h1 <?php if ($_smarty_tpl->tpl_vars['sttheme']->value['google_rich_snippets']) {?> itemprop="name" <?php }?> class="product_name <?php if ($_smarty_tpl->tpl_vars['sttheme']->value['product_name_at_top'] == 1 || ($_smarty_tpl->tpl_vars['sttheme']->value['product_name_at_top'] == 2 && $_smarty_tpl->tpl_vars['sttheme']->value['is_mobile_device'])) {?> text-center <?php }?>"><?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1046507156668a67f096fbf0_68705486', 'page_title');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_973667976668ab4d27173b6_33111987', 'page_title');
 ?>
 </h1>
 
@@ -88,12 +88,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
     </section>
 </div><?php }
 /* {block 'page_title'} */
-class Block_1046507156668a67f096fbf0_68705486 extends Smarty_Internal_Block
+class Block_973667976668ab4d27173b6_33111987 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_title' => 
   array (
-    0 => 'Block_1046507156668a67f096fbf0_68705486',
+    0 => 'Block_973667976668ab4d27173b6_33111987',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
   from 'module:stlanguageselectorviewstemplateshookstlanguageselector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0817f23_55458255',
+  'unifunc' => 'content_668ab42a868327_39597883',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f0817f23_55458255 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42a868327_39597883 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stlanguageselector -->
 <?php if (!(isset($_smarty_tpl->tpl_vars['languages_style']->value)) || !$_smarty_tpl->tpl_vars['languages_style']->value) {?>
 	<div id="languages-block-top-mod" class="languages-block top_bar_item dropdown_wrap"><div class="dropdown_tri <?php if (count($_smarty_tpl->tpl_vars['languages']->value) > 1) {?> dropdown_tri_in <?php }?> header_item" aria-haspopup="true" aria-expanded="false"><?php if ($_smarty_tpl->tpl_vars['display_flags']->value != 1) {?><img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['urls']->value['img_lang_url'], ENT_QUOTES, 'UTF-8');

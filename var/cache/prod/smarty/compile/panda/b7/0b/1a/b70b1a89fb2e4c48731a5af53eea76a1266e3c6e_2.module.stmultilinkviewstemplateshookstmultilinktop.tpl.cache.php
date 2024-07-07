@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
   from 'module:stmultilinkviewstemplateshookstmultilinktop.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f084eea8_66310035',
+  'unifunc' => 'content_668ab42a89eb78_64860095',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f084eea8_66310035 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1374136827668a67f08478f3_60751689';
+function content_668ab42a89eb78_64860095 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1354691225668ab42a897f81_48788233';
 if (!empty($_smarty_tpl->tpl_vars['link_groups']->value)) {?>
 <!-- MODULE st stmultilink -->
 <?php
@@ -32,7 +32,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['link_group']->va
 $_smarty_tpl->tpl_vars['link_group']->do_else = false;
 $_smarty_tpl->tpl_vars['link_group']->index++;
 $_smarty_tpl->tpl_vars['link_group']->first = !$_smarty_tpl->tpl_vars['link_group']->index;
-$__foreach_link_group_17_saved = $_smarty_tpl->tpl_vars['link_group'];
+$__foreach_link_group_16_saved = $_smarty_tpl->tpl_vars['link_group'];
 ?>
     <div id="multilink_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['link_group']->value['id_st_multi_link_group'], ENT_QUOTES, 'UTF-8');?>
 " class="stlinkgroups_top dropdown_wrap <?php if ($_smarty_tpl->tpl_vars['link_group']->first) {?>first-item<?php }?> top_bar_item"><?php if ($_smarty_tpl->tpl_vars['link_group']->value['url']) {?><a href="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['link_group']->value['url'], ENT_QUOTES, 'UTF-8');?>
@@ -70,7 +70,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
         <?php }?>
     </div>
 <?php
-$_smarty_tpl->tpl_vars['link_group'] = $__foreach_link_group_17_saved;
+$_smarty_tpl->tpl_vars['link_group'] = $__foreach_link_group_16_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 <!-- /MODULE st stmultilink -->

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:37:43
   from 'module:stmultilinkviewstemplateshookstmultilinkfooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0dd1e80_41706021',
+  'unifunc' => 'content_668ab6470bc3e8_18939547',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668a67f0dd1e80_41706021 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab6470bc3e8_18939547 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stmultilink -->
 <section id="multilink_2" class="stlinkgroups_links_footer col-lg-2-4 footer_block block ">
         <div class="title_block ">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
   from 'module:stsearchbarviewstemplateshookstsearchbar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f077b6c7_70494022',
+  'unifunc' => 'content_668ab42a77f1b5_64283027',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stsearchbar/views/templates/hook/stsearchbar-block.tpl' => 2,
   ),
 ),false)) {
-function content_668a67f077b6c7_70494022 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42a77f1b5_64283027 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stsearchbar -->
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "quick_search_info", null, null);?>
 	<?php if ($_smarty_tpl->tpl_vars['quick_search_header_style']->value != 1) {?><span class="header_icon_btn_icon header_v_align_m <?php if ($_smarty_tpl->tpl_vars['quick_search_header_style']->value == 0) {?> mar_r4 <?php }?>"><i class="fto-search-1 icon_btn <?php if ($_smarty_tpl->tpl_vars['quick_search_header_style']->value == 0) {?>fs_lg<?php } else { ?>fs_big<?php }?>"></i></span><?php }?>

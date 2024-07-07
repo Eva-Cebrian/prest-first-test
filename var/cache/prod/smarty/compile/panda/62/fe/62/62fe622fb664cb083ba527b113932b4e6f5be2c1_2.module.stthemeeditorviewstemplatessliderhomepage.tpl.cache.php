@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
   from 'module:stthemeeditorviewstemplatessliderhomepage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0ab3c95_67583705',
+  'unifunc' => 'content_668ab42ab94460_19179648',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -27,8 +27,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stblog/views/templates/slider/list-item.tpl' => 1,
   ),
 ),false)) {
-function content_668a67f0ab3c95_67583705 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '536005937668a67f0aa0d14_07562572';
+function content_668ab42ab94460_19179648 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '647488203668ab42ab82821_88140360';
 ?>
 
 <?php if ((isset($_smarty_tpl->tpl_vars['module']->value))) {?>
@@ -105,8 +105,8 @@ echo $_smarty_tpl->tpl_vars['custom_content']->value[1]['content'];
             </div>
             <?php ob_start();
 echo htmlspecialchars((string) count($_smarty_tpl->tpl_vars['products']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable1 = ob_get_clean();
-$_smarty_tpl->_subTemplateRender("file:catalog/slider/script.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('block_name'=>"#".((string)$_smarty_tpl->tpl_vars['module']->value)."_container_".((string)$_smarty_tpl->tpl_vars['hook_hash']->value),'one_item_only'=>$_prefixVariable1), 0, false);
+$_prefixVariable2 = ob_get_clean();
+$_smarty_tpl->_subTemplateRender("file:catalog/slider/script.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('block_name'=>"#".((string)$_smarty_tpl->tpl_vars['module']->value)."_container_".((string)$_smarty_tpl->tpl_vars['hook_hash']->value),'one_item_only'=>$_prefixVariable2), 0, false);
 ?>
             <?php } elseif ($_smarty_tpl->tpl_vars['display_as_grid']->value == 2) {?>
                 <?php $_smarty_tpl->_subTemplateRender("file:catalog/listing/product-list-simple.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('for_f'=>((string)$_smarty_tpl->tpl_vars['module']->value)), 0, false);
@@ -123,8 +123,8 @@ $_smarty_tpl->_subTemplateRender("file:catalog/slider/script.tpl", $_smarty_tpl-
             </div>
             <?php ob_start();
 echo htmlspecialchars((string) count($_smarty_tpl->tpl_vars['blogs']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable2 = ob_get_clean();
-$_smarty_tpl->_subTemplateRender("file:catalog/slider/script.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('block_name'=>"#".((string)$_smarty_tpl->tpl_vars['module']->value)."_container_".((string)$_smarty_tpl->tpl_vars['hook_hash']->value),'is_product_slider'=>0,'one_item_only'=>$_prefixVariable2), 0, true);
+$_prefixVariable3 = ob_get_clean();
+$_smarty_tpl->_subTemplateRender("file:catalog/slider/script.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('block_name'=>"#".((string)$_smarty_tpl->tpl_vars['module']->value)."_container_".((string)$_smarty_tpl->tpl_vars['hook_hash']->value),'is_product_slider'=>0,'one_item_only'=>$_prefixVariable3), 0, true);
 ?>
             <?php } else { ?>
                 <?php $_smarty_tpl->_subTemplateRender("module:stblog/views/templates/slider/list-item.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('for_f'=>((string)$_smarty_tpl->tpl_vars['module']->value)), 0, false);

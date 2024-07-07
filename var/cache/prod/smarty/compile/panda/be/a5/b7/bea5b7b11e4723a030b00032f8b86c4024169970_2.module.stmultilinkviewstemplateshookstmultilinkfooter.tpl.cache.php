@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
   from 'module:stmultilinkviewstemplateshookstmultilinkfooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0dcada8_81017822',
+  'unifunc' => 'content_668ab42b06cd57_52418083',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stmultilink/views/templates/hook/stmultilink-item.tpl' => 1,
   ),
 ),false)) {
-function content_668a67f0dcada8_81017822 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '948735064668a67f0dc47b6_71819005';
+function content_668ab42b06cd57_52418083 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '324021472668ab42b067a97_88066001';
 if (!empty($_smarty_tpl->tpl_vars['link_groups']->value)) {?>
 <!-- MODULE st stmultilink -->
 <?php

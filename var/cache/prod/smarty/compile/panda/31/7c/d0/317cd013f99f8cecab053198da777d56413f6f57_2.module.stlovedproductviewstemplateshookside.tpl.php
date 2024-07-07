@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
   from 'module:stlovedproductviewstemplateshookside.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0edbde5_43004762',
+  'unifunc' => 'content_668ab42b14ae99_47760385',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stblog/views/templates/slider/simple.tpl' => 1,
   ),
 ),false)) {
-function content_668a67f0edbde5_43004762 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42b14ae99_47760385 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stlovedproduct -->
 <nav class="st-menu" id="side_loved">
 	<div class="st-menu-header flex_container">

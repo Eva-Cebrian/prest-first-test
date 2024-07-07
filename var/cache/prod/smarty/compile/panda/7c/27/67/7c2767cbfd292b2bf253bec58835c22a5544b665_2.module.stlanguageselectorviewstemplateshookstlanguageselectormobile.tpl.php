@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
   from 'module:stlanguageselectorviewstemplateshookstlanguageselectormobile.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0f17671_67919523',
+  'unifunc' => 'content_668ab42b16bbc3_72048774',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f0f17671_67919523 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42b16bbc3_72048774 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stlanguageselector -->
 <!-- Block languages module -->
 <ul id="languages-block_mobile_menu" class="mo_mu_level_0 mobile_menu_ul">

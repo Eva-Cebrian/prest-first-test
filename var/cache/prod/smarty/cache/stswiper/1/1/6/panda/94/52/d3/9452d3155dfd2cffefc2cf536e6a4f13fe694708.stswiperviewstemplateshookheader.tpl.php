@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:37:42
   from 'module:stswiperviewstemplateshookheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f04690c7_64056432',
+  'unifunc' => 'content_668ab646e6b565_22300644',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668a67f04690c7_64056432 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab646e6b565_22300644 (Smarty_Internal_Template $_smarty_tpl) {
 ?><style>#st_swiper_1 .swiper-pagination-bullet-active, #st_swiper_1 .swiper-pagination-progress .swiper-pagination-progressbar{background-color:#ffffff;}#st_swiper_1 .swiper-pagination-st-round .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:#ffffff;border-color:#ffffff;}#st_swiper_1 .swiper-pagination-st-round .swiper-pagination-bullet.swiper-pagination-bullet-active span{background-color:#ffffff;}#st_swiper_2 .swiper-pagination-bullet-active, #st_swiper_2 .swiper-pagination-progress .swiper-pagination-progressbar{background-color:#ffffff;}#st_swiper_2 .swiper-pagination-st-round .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:#ffffff;border-color:#ffffff;}#st_swiper_2 .swiper-pagination-st-round .swiper-pagination-bullet.swiper-pagination-bullet-active span{background-color:#ffffff;}</style>
 <?php }
 }

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
   from 'module:ps_categoryproductsviewstemplateshookps_categoryproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0c120b6_14036811',
+  'unifunc' => 'content_668ab4d2a6dc47_93252439',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,9 +22,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/slider/script.tpl' => 1,
   ),
 ),false)) {
-function content_668a67f0c120b6_14036811 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab4d2a6dc47_93252439 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
-$_smarty_tpl->compiled->nocache_hash = '1008885944668a67f0c0c392_13348870';
+$_smarty_tpl->compiled->nocache_hash = '988897981668ab4d2a684c6_33930519';
 if ((isset($_smarty_tpl->tpl_vars['products']->value)) && $_smarty_tpl->tpl_vars['products']->value) {?>
 <div id="category_products_container" class="category_products_container block products_container">
 <section class="products_section" >

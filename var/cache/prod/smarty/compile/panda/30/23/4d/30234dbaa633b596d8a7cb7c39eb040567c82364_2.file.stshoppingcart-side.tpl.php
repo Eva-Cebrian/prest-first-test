@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/modules/stshoppingcart/views/templates/hook/stshoppingcart-side.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0e45837_61414210',
+  'unifunc' => 'content_668ab42b0f6492_29674531',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stshoppingcart/views/templates/hook/stshoppingcart-list.tpl' => 1,
   ),
 ),false)) {
-function content_668a67f0e45837_61414210 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42b0f6492_29674531 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stshoppingcart -->
 <nav class="st-menu" id="side_products_cart">
 	<div class="st-menu-header flex_container">

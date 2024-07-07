@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/modules/stsearchbar/views/templates/hook/stsearchbar-side.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0e419d1_80599307',
+  'unifunc' => 'content_668ab42b0b9bd5_18633768',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stsearchbar/views/templates/hook/stsearchbar-block.tpl' => 1,
   ),
 ),false)) {
-function content_668a67f0e419d1_80599307 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42b0b9bd5_18633768 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="st-menu" id="side_search">
 	<div class="st-menu-header flex_container">
 		<h3 class="st-menu-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Search','d'=>'Shop.Theme.Panda'),$_smarty_tpl ) );?>

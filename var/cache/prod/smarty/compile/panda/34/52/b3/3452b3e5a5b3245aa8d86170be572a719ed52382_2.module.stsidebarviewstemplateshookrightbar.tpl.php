@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:29
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
   from 'module:stsidebarviewstemplateshookrightbar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f10db573_42650417',
+  'unifunc' => 'content_668ab42b22bfa3_21600132',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stsidebar/views/templates/hook/rightbar-item.tpl' => 2,
   ),
 ),false)) {
-function content_668a67f10db573_42650417 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42b22bfa3_21600132 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stsidebar -->
 <?php if (count($_smarty_tpl->tpl_vars['sidebar_items_left']->value)) {?>
 <div id="leftbar" class="">

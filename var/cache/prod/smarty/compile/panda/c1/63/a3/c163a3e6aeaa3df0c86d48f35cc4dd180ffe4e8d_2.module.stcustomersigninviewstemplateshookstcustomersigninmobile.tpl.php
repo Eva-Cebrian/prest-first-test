@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
   from 'module:stcustomersigninviewstemplateshookstcustomersigninmobile.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0f063c9_20380676',
+  'unifunc' => 'content_668ab42b15b924_68422789',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f0f063c9_20380676 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42b15b924_68422789 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stcustomersignin -->
 <!-- Block user information module NAV  -->
 <?php $_smarty_tpl->_assignInScope('show_user_info_icons', Configuration::get('ST_SHOW_USER_INFO_ICONS'));

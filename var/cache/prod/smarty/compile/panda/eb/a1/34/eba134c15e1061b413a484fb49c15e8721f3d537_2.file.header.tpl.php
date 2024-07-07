@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/modules/stsocial/views/templates/hook/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f073cfe0_60665323',
+  'unifunc' => 'content_668ab42a737aa2_57509817',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f073cfe0_60665323 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42a737aa2_57509817 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['has_facebook']->value && $_smarty_tpl->tpl_vars['page']->value['page_name'] != 'product') {?>
     <?php if ((isset($_smarty_tpl->tpl_vars['fb_app_id']->value)) && $_smarty_tpl->tpl_vars['fb_app_id']->value) {?>
     <meta property="fb:app_id" content="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['fb_app_id']->value, ENT_QUOTES, 'UTF-8');?>

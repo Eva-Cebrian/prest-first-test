@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/miniatures/countdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0c99af1_00928067',
+  'unifunc' => 'content_668ab42ac3c639_41579170',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f0c99af1_00928067 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668ab42ac3c639_41579170 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
-$_smarty_tpl->compiled->nocache_hash = '1362197982668a67f0c92ed5_56777632';
+$_smarty_tpl->compiled->nocache_hash = '1010284392668ab42ac34ed3_27402092';
 if ((isset($_smarty_tpl->tpl_vars['countdown_active']->value)) && $_smarty_tpl->tpl_vars['countdown_active']->value) {?>
     <?php if ($_smarty_tpl->tpl_vars['product']->value['show_price'] && !$_smarty_tpl->tpl_vars['sttheme']->value['is_catalog']) {
 if ($_smarty_tpl->tpl_vars['product']->value['has_discount']) {?>

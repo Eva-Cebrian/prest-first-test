@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 12:03:28
+/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
   from 'module:stnewsletterviewstemplateshookstnewsletterfooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668a67f0da2a27_61798132',
+  'unifunc' => 'content_668ab42b05c562_10719907',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668a67f0da2a27_61798132 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '2076794979668a67f0d9b765_74797982';
+function content_668ab42b05c562_10719907 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1067544142668ab42b054746_79184708';
 if ((isset($_smarty_tpl->tpl_vars['news_letter_array']->value)) && count($_smarty_tpl->tpl_vars['news_letter_array']->value)) {?>
 	<!-- MODULE st stnewsletter -->
     <?php
