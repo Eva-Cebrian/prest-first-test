@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/miniatures/list-item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab441a667c5_64411431',
+  'unifunc' => 'content_668adaa62b1879_68459737',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_668ab441a667c5_64411431 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa62b1879_68459737 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),2=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
@@ -180,7 +180,7 @@ if ($_smarty_tpl->tpl_vars['curr_index']->value < $_smarty_tpl->tpl_vars['pro_pe
 if ($_smarty_tpl->tpl_vars['curr_iteration']->value > ($_smarty_tpl->tpl_vars['nbLi']->value-$_smarty_tpl->tpl_vars['totModuloPortrait']->value)) {?> last-portrait-line<?php }
 if ($_smarty_tpl->tpl_vars['curr_index']->value < $_smarty_tpl->tpl_vars['pro_per_xs']->value) {?> first-portrait-line<?php }?>">
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_627489265668ab441a65442_85660141', 'product_miniature');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1917631997668adaa62b05a9_27305613', 'product_miniature');
 ?>
 
       </div>
@@ -192,12 +192,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
   <?php if ($_smarty_tpl->tpl_vars['sttheme']->value['infinite_scroll']) {?><div class="hidden text-center infinite-spin"><i class="fto-spin5 animate-spin fs-xl"></i></div><?php }
 }
 /* {block 'product_miniature'} */
-class Block_627489265668ab441a65442_85660141 extends Smarty_Internal_Block
+class Block_1917631997668adaa62b05a9_27305613 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_miniature' => 
   array (
-    0 => 'Block_627489265668ab441a65442_85660141',
+    0 => 'Block_1917631997668adaa62b05a9_27305613',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

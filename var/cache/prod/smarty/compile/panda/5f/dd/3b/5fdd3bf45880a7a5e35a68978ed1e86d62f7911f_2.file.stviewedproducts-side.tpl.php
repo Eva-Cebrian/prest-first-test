@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/modules/stviewedproducts/views/templates/hook/stviewedproducts-side.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42b1e08e7_41673386',
+  'unifunc' => 'content_668adaa671d2c6_28685242',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product-slider-item-compact.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42b1e08e7_41673386 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa671d2c6_28685242 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stviewedproducts -->
 <nav class="st-menu" id="side_viewed">
 	<div class="st-menu-header flex_container">

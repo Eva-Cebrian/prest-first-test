@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:stfeaturedcategoriesviewstemplateshookstfeaturedcategories.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42ad02a90_13838651',
+  'unifunc' => 'content_669956d5792f27_30794313',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,9 +21,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/slider/script.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42ad02a90_13838651 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669956d5792f27_30794313 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.regex_replace.php','function'=>'smarty_modifier_regex_replace',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
-$_smarty_tpl->compiled->nocache_hash = '1731235860668ab42ace07c9_03249084';
+$_smarty_tpl->compiled->nocache_hash = '1876595692669956d576db74_68668260';
 ?>
 <!-- MODULE st stfeaturedcategories -->
 <?php if ((isset($_smarty_tpl->tpl_vars['homeverybottom']->value)) && $_smarty_tpl->tpl_vars['homeverybottom']->value && !$_smarty_tpl->tpl_vars['pro_per_fw']->value) {
@@ -97,7 +97,7 @@ $_smarty_tpl->tpl_vars['category']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['category']->value) {
 $_smarty_tpl->tpl_vars['category']->do_else = false;
 $_smarty_tpl->tpl_vars['category']->iteration++;
-$__foreach_category_59_saved = $_smarty_tpl->tpl_vars['category'];
+$__foreach_category_3_saved = $_smarty_tpl->tpl_vars['category'];
 ?>                
                 <div class="featured_categories_item swiper-slide">
                     <div class="pro_outer_box <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['image_type']->value, ENT_QUOTES, 'UTF-8');?>
@@ -155,7 +155,7 @@ echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['language']->value['iso_co
                     </div>
                 </div>
                 <?php
-$_smarty_tpl->tpl_vars['category'] = $__foreach_category_59_saved;
+$_smarty_tpl->tpl_vars['category'] = $__foreach_category_3_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                 </div>
@@ -180,7 +180,7 @@ $_smarty_tpl->tpl_vars['category']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['index']->value => $_smarty_tpl->tpl_vars['category']->value) {
 $_smarty_tpl->tpl_vars['category']->do_else = false;
 $_smarty_tpl->tpl_vars['category']->iteration++;
-$__foreach_category_60_saved = $_smarty_tpl->tpl_vars['category'];
+$__foreach_category_4_saved = $_smarty_tpl->tpl_vars['category'];
 ?>
                 <?php $_smarty_tpl->_assignInScope('curr_index', $_smarty_tpl->tpl_vars['index']->value);?>
                 <?php $_smarty_tpl->_assignInScope('curr_iteration', $_smarty_tpl->tpl_vars['index']->value+1);?>
@@ -265,7 +265,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                     </div>
                 </div>
             <?php
-$_smarty_tpl->tpl_vars['category'] = $__foreach_category_60_saved;
+$_smarty_tpl->tpl_vars['category'] = $__foreach_category_4_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
             </div>

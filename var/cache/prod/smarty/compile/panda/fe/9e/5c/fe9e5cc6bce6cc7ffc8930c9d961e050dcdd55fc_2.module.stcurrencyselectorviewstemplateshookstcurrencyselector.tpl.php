@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:53
   from 'module:stcurrencyselectorviewstemplateshookstcurrencyselector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42a859a98_76947263',
+  'unifunc' => 'content_668adaa5f12b36_88509218',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42a859a98_76947263 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa5f12b36_88509218 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stcurrencyselector -->
 <!-- Block currencies module -->
 <?php if (!(isset($_smarty_tpl->tpl_vars['currencies_style']->value)) || !$_smarty_tpl->tpl_vars['currencies_style']->value) {?>

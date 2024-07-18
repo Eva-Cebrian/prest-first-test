@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
+/* Smarty version 4.3.4, created on 2024-07-07 20:13:04
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/product-customization.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab4d27d2d91_66359689',
+  'unifunc' => 'content_668adab0bfd1d9_70621257',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab4d27d2d91_66359689 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adab0bfd1d9_70621257 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 if ($_smarty_tpl->tpl_vars['product']->value['is_customizable'] && count($_smarty_tpl->tpl_vars['product']->value['customizations']['fields'])) {?>
@@ -32,7 +32,7 @@ if ($_smarty_tpl->tpl_vars['product']->value['is_customizable'] && count($_smart
 </div>
 
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1236948446668ab4d27ceee9_56329806', 'product_customization_form');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1950838170668adab0bf8b27_93934107', 'product_customization_form');
 ?>
 
       <div class="steasy_divider between_detials_and_buttons"><div class="steasy_divider_item"></div></div>
@@ -41,12 +41,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1236948446668ab4d2
 <?php }
 }
 /* {block 'product_customization_form'} */
-class Block_1236948446668ab4d27ceee9_56329806 extends Smarty_Internal_Block
+class Block_1950838170668adab0bf8b27_93934107 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_customization_form' => 
   array (
-    0 => 'Block_1236948446668ab4d27ceee9_56329806',
+    0 => 'Block_1950838170668adab0bf8b27_93934107',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

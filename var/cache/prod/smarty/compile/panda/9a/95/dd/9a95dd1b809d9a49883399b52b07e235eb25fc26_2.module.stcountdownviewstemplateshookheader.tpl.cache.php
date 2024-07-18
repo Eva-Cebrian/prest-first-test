@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:53
   from 'module:stcountdownviewstemplateshookheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42a62eb90_64180872',
+  'unifunc' => 'content_668adaa5a9f0b3_63084609',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42a62eb90_64180872 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '869530714668ab42a62c262_06705535';
+function content_668adaa5a9f0b3_63084609 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1583637981668adaa5a9cbe7_59399609';
 if ((isset($_smarty_tpl->tpl_vars['custom_css']->value)) && $_smarty_tpl->tpl_vars['custom_css']->value) {?>
 <style><?php echo $_smarty_tpl->tpl_vars['custom_css']->value;?>
 </style>

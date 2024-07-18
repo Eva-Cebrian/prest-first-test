@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:steasycontentviewstemplateshooksteasycontent.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42adc8b45_14090023',
+  'unifunc' => 'content_669956d581f9f5_25460395',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:steasycontent/views/templates/hook/steasycontent-columns.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42adc8b45_14090023 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669956d581f9f5_25460395 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 if ((isset($_smarty_tpl->tpl_vars['easy_content']->value)) && smarty_modifier_count($_smarty_tpl->tpl_vars['easy_content']->value) > 0) {?>
     <?php

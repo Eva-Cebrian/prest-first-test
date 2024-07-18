@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:53
   from 'module:stmegamenuviewstemplateshookheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42a4207e1_94993236',
+  'unifunc' => 'content_668adaa58caa79_98896826',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42a4207e1_94993236 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1149973144668ab42a41fb64_37643950';
+function content_668adaa58caa79_98896826 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '924333164668adaa58c9e50_47035253';
 if ((isset($_smarty_tpl->tpl_vars['megamenu_custom_css']->value)) && $_smarty_tpl->tpl_vars['megamenu_custom_css']->value) {?>
 <style>
 <?php echo $_smarty_tpl->tpl_vars['megamenu_custom_css']->value;?>

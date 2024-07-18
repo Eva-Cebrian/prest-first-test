@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stmegamenuviewstemplateshookstmegamenuul.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42a9a9438_27814060',
+  'unifunc' => 'content_668adaa60ace79_79061825',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stmegamenu/views/templates/hook/stmegamenu-sub.tpl' => 2,
   ),
 ),false)) {
-function content_668ab42a9a9438_27814060 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '460588039668ab42a99cd61_50002854';
+function content_668adaa60ace79_79061825 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '688341170668adaa60a0b43_07532140';
 ?>
 <ul class="st_mega_menu clearfix mu_level_0">
 	<?php if ((isset($_smarty_tpl->tpl_vars['stvertical']->value)) && count($_smarty_tpl->tpl_vars['stvertical']->value) && (isset($_smarty_tpl->tpl_vars['is_mega_menu_main']->value)) && $_smarty_tpl->tpl_vars['is_mega_menu_main']->value) {?>

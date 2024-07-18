@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:37:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stnewsletterviewstemplateshookstnewsletterfooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab6470b1140_06493059',
+  'unifunc' => 'content_668adaa64dd379_67179422',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668ab6470b1140_06493059 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa64dd379_67179422 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
+));
 ?>	<!-- MODULE st stnewsletter -->
     		<section id="st_news_letter_1" class="st_news_letter_1  footer_block block  col-lg-3 ">
 		        		<div class="title_block">

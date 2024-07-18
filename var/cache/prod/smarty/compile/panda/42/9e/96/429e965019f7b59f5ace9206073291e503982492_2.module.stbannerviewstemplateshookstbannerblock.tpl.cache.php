@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:stbannerviewstemplateshookstbannerblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42ae95f06_21671009',
+  'unifunc' => 'content_669956d58fc9f3_31723786',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42ae95f06_21671009 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669956d58fc9f3_31723786 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.regex_replace.php','function'=>'smarty_modifier_regex_replace',),));
-$_smarty_tpl->compiled->nocache_hash = '1366030752668ab42ae89767_40234532';
+$_smarty_tpl->compiled->nocache_hash = '299344591669956d58edde2_27025601';
 if ($_smarty_tpl->tpl_vars['banner_data']->value['url'] && !$_smarty_tpl->tpl_vars['banner_data']->value['description_has_links']) {?>
     <a id="st_banner_block_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['banner_data']->value['id_st_banner'], ENT_QUOTES, 'UTF-8');?>
 " href="<?php echo htmlspecialchars((string) call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['banner_data']->value['url'],'html' )), ENT_QUOTES, 'UTF-8');?>

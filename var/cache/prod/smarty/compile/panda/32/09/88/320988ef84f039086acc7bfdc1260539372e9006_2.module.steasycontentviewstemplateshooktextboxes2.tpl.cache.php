@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:steasycontentviewstemplateshooktextboxes2.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42acc7273_21913152',
+  'unifunc' => 'content_669956d575f2f6_22425116',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42acc7273_21913152 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '204185601668ab42acc1099_79694169';
+function content_669956d575f2f6_22425116 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '696658148669956d5759096_59726127';
 ?>
 <div class="flex_container flex_start">
 	<?php if ((isset($_smarty_tpl->tpl_vars['element']->value['st_image'])) && $_smarty_tpl->tpl_vars['element']->value['st_image']) {?>

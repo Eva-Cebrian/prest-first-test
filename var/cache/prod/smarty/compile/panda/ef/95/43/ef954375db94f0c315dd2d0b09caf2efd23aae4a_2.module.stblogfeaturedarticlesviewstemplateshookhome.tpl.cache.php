@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:stblogfeaturedarticlesviewstemplateshookhome.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42ae3f2e9_59649277',
+  'unifunc' => 'content_669956d58a9d27_39818544',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,8 +23,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stblog/views/templates/slider/list-item.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42ae3f2e9_59649277 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '287484637668ab42ae26986_81715053';
+function content_669956d58a9d27_39818544 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1571026496669956d588bc26_16827049';
 $_smarty_tpl->_assignInScope('column_fix', '');
 if ((isset($_smarty_tpl->tpl_vars['column_slider']->value)) && $_smarty_tpl->tpl_vars['column_slider']->value) {
 $_smarty_tpl->_assignInScope('column_fix', "_column");

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stthemeeditorviewstemplatessliderhomepage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42ab94460_19179648',
+  'unifunc' => 'content_668adaa621bd70_20024586',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -27,8 +27,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stblog/views/templates/slider/list-item.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42ab94460_19179648 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '647488203668ab42ab82821_88140360';
+function content_668adaa621bd70_20024586 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1834701817668adaa6208da9_80799173';
 ?>
 
 <?php if ((isset($_smarty_tpl->tpl_vars['module']->value))) {?>

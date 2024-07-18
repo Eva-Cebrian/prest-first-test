@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:sttagsviewstemplateshooksttagsitems.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42b08ca68_80519460',
+  'unifunc' => 'content_668adaa651abb0_00366050',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42b08ca68_80519460 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa651abb0_00366050 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
-$_smarty_tpl->compiled->nocache_hash = '1906124119668ab42b08a969_08525205';
+$_smarty_tpl->compiled->nocache_hash = '1014886788668adaa6518556_45906525';
 ?>
 
 <?php if ((isset($_smarty_tpl->tpl_vars['tags']->value)) && is_array($_smarty_tpl->tpl_vars['tags']->value) && smarty_modifier_count($_smarty_tpl->tpl_vars['tags']->value)) {?>

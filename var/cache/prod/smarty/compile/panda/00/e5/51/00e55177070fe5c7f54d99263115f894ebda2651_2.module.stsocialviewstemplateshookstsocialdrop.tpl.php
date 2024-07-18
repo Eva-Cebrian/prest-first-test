@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
+/* Smarty version 4.3.4, created on 2024-07-07 20:13:04
   from 'module:stsocialviewstemplateshookstsocialdrop.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab4d280b4c0_50046308',
+  'unifunc' => 'content_668adab0c2cac3_54402293',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stsocial/views/templates/hook/stsocial.tpl' => 2,
   ),
 ),false)) {
-function content_668ab4d280b4c0_50046308 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adab0c2cac3_54402293 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['stsocial']->value)) && $_smarty_tpl->tpl_vars['stsocial']->value) {?>
     <!-- MODULE st stsocial -->
 <div class="top_bar_item dropdown_wrap pro_right_item">

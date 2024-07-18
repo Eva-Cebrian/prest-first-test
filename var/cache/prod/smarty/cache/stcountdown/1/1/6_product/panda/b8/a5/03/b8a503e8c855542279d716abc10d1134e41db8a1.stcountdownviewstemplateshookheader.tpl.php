@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:37:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:13:04
   from 'module:stcountdownviewstemplateshookheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab646ec4500_25743718',
+  'unifunc' => 'content_668adab09cfe09_37973111',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668ab646ec4500_25743718 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adab09cfe09_37973111 (Smarty_Internal_Template $_smarty_tpl) {
 ?><style>.countdown_timer.countdown_style_0 .countdown_wrap_inner div{padding-top:11px;padding-bottom:11px;}.countdown_timer.countdown_style_0 .countdown_wrap_inner div span{height:22px;line-height:22px;}.countdown_timer.countdown_style_0 .countdown_wrap_inner div{border-right:none;}.countdown_name{display:none;}</style>
 <script>
 //<![CDATA[

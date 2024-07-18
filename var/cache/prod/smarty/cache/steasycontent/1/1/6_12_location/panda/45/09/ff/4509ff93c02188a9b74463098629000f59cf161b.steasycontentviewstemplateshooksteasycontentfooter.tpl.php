@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:37:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:steasycontentviewstemplateshooksteasycontentfooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab6470d0072_32839184',
+  'unifunc' => 'content_668adaa654f9d0_65082259',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -36,7 +36,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668ab6470d0072_32839184 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa654f9d0_65082259 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
+));
 ?>    <!-- MODULE st steasycontent -->
         <section id="easycontent_4" class=" easycontent col-lg-2-4 footer_block block ">
                 <div class="title_block">

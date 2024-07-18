@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/miniatures/hover_fly.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab441add5c4_69194000',
+  'unifunc' => 'content_668adaa6364183_46612772',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -27,7 +27,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stsocial/views/templates/hook/stsocial-hover-fly.tpl' => 1,
   ),
 ),false)) {
-function content_668ab441add5c4_69194000 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa6364183_46612772 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="hover_fly hover_fly_<?php echo htmlspecialchars((string) (int)$_smarty_tpl->tpl_vars['sttheme']->value['flyout_buttons_style'], ENT_QUOTES, 'UTF-8');?>
  flex_container <?php if ($_smarty_tpl->tpl_vars['sttheme']->value['flyout_buttons_on_mobile'] == 1) {?> mobile_hover_fly_show <?php } elseif ($_smarty_tpl->tpl_vars['sttheme']->value['flyout_buttons_on_mobile'] == 2) {?> mobile_hover_fly_cart <?php } else { ?> mobile_hover_fly_hide <?php }?>">
           <?php if (!$_smarty_tpl->tpl_vars['sttheme']->value['display_add_to_cart'] && $_smarty_tpl->tpl_vars['sttheme']->value['pro_quantity_input'] != 1 && $_smarty_tpl->tpl_vars['sttheme']->value['pro_quantity_input'] != 3) {?>

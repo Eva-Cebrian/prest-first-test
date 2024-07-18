@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:53
   from 'module:stnotificationviewstemplateshookstnotification.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42a845b55_65419207',
+  'unifunc' => 'content_668adaa5f03981_16546153',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stnotification/views/templates/hook/stnotification-buttons.tpl' => 3,
   ),
 ),false)) {
-function content_668ab42a845b55_65419207 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa5f03981_16546153 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 if ((isset($_smarty_tpl->tpl_vars['notification_array']->value)) && smarty_modifier_count($_smarty_tpl->tpl_vars['notification_array']->value) > 0) {?>
 	<!-- MODULE st stnotification -->

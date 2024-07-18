@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/miniatures/product-price.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab441af4fc2_51178262',
+  'unifunc' => 'content_668adaa63811c0_40908745',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/sticker.tpl' => 1,
   ),
 ),false)) {
-function content_668ab441af4fc2_51178262 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa63811c0_40908745 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 if ((!(isset($_smarty_tpl->tpl_vars['st_display_price']->value)) || $_smarty_tpl->tpl_vars['st_display_price']->value) && $_smarty_tpl->tpl_vars['product']->value['show_price']) {?>
@@ -56,7 +56,7 @@ if ((!(isset($_smarty_tpl->tpl_vars['st_display_price']->value)) || $_smarty_tpl
 
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_831143927668ab441af3d43_84353159', 'product_flags_price');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1574490379668adaa637fc72_56649754', 'product_flags_price');
 ?>
 
 
@@ -69,12 +69,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_831143927668ab441a
 <?php }
 }
 /* {block 'product_flags_price'} */
-class Block_831143927668ab441af3d43_84353159 extends Smarty_Internal_Block
+class Block_1574490379668adaa637fc72_56649754 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_flags_price' => 
   array (
-    0 => 'Block_831143927668ab441af3d43_84353159',
+    0 => 'Block_1574490379668adaa637fc72_56649754',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stswiperviewstemplateshookstswiper.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42aa035d5_39917017',
+  'unifunc' => 'content_668adaa611ec20_38181619',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stswiper/views/templates/hook/stswiper-".((string)$_smarty_tpl->tpl_vars[\'group\']->value[\'templates\']).".tpl' => 1,
   ),
 ),false)) {
-function content_668ab42aa035d5_39917017 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1485718749668ab42a9fe9f1_41042614';
+function content_668adaa611ec20_38181619 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '139161102668adaa611a396_58849277';
 if ((isset($_smarty_tpl->tpl_vars['slide_group']->value))) {?>
     <!-- MODULE st swiper -->
     <?php

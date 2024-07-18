@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stlovedproductviewstemplateshookgo_login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42b27e898_08386740',
+  'unifunc' => 'content_668adaa6784175_77076212',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42b27e898_08386740 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa6784175_77076212 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stlovedproduct -->
 <div id="loved_go_login" class="inline_popup_content small_popup mfp-with-anim mfp-hide text-center">
   <p class="fs_md"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Create a free account to save loved items.','d'=>'Shop.Theme.Panda'),$_smarty_tpl ) );?>

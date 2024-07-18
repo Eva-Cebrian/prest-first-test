@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:steasycontentviewstemplateshookicon_with_text4.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42b0ad206_32748499',
+  'unifunc' => 'content_668adaa654dc81_52079087',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42b0ad206_32748499 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '654125742668ab42b0a8838_34589884';
+function content_668adaa654dc81_52079087 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1917845523668adaa6548865_60002736';
 ?>
 <div class="easy_icon_with_text_<?php if ((isset($_smarty_tpl->tpl_vars['element']->value['st_el_icon_with_text']))) {
 echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['element']->value['st_el_icon_with_text'], ENT_QUOTES, 'UTF-8');

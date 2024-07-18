@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:stbannerviewstemplateshookstbannercolumn.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42ae87437_45717783',
+  'unifunc' => 'content_669956d58ead44_82423285',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,8 +22,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stbanner/views/templates/hook/stbanner-column.tpl' => 2,
   ),
 ),false)) {
-function content_668ab42ae87437_45717783 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1417541208668ab42ae81f92_13858962';
+function content_669956d58ead44_82423285 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '860332248669956d58e40a0_83178301';
 if ((isset($_smarty_tpl->tpl_vars['columns_data']->value))) {?>
     <!-- MODULE st banner column -->
     <div class="row">

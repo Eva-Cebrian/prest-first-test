@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:53
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/facets-slider.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab4418ad602_77720331',
+  'unifunc' => 'content_668adaa5e64163_22219652',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,20 +20,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab4418ad602_77720331 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa5e64163_22219652 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
                     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_863674175668ab4418ab642_66721246', 'facet_item_slider');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1297513765668adaa5e61cc7_29730240', 'facet_item_slider');
 }
 /* {block 'facet_item_slider'} */
-class Block_863674175668ab4418ab642_66721246 extends Smarty_Internal_Block
+class Block_1297513765668adaa5e61cc7_29730240 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'facet_item_slider' => 
   array (
-    0 => 'Block_863674175668ab4418ab642_66721246',
+    0 => 'Block_1297513765668adaa5e61cc7_29730240',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:steasycontentviewstemplateshooksteasycontentelement1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42b0a65b9_06651767',
+  'unifunc' => 'content_668adaa6546933_09393666',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,9 +21,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:steasycontent/views/templates/hook/icon_with_text/".((string)$_smarty_tpl->tpl_vars[\'pre_template\']->value[0]).".tpl' => 1,
   ),
 ),false)) {
-function content_668ab42b0a65b9_06651767 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa6546933_09393666 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
-$_smarty_tpl->compiled->nocache_hash = '1202910179668ab42b0a2661_56300183';
+$_smarty_tpl->compiled->nocache_hash = '1672726910668adaa6542671_22455829';
 ?>
 <div class="row">
 <?php $_smarty_tpl->_assignInScope('element_width_total', 0);?> 

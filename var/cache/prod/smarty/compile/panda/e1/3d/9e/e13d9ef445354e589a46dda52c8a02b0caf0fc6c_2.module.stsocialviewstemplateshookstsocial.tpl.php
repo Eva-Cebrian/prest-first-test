@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:31:30
+/* Smarty version 4.3.4, created on 2024-07-07 20:13:04
   from 'module:stsocialviewstemplateshookstsocial.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab4d2813321_97019852',
+  'unifunc' => 'content_668adab0c34fa5_77093071',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab4d2813321_97019852 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adab0c34fa5_77093071 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['stsocial']->value)) && $_smarty_tpl->tpl_vars['stsocial']->value) {?>
 <!-- MODULE st stsocial -->
 <?php if (!(isset($_smarty_tpl->tpl_vars['share_url']->value))) {

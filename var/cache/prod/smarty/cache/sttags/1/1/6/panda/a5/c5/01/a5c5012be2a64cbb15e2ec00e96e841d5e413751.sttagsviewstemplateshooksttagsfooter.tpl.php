@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:37:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:sttagsviewstemplateshooksttagsfooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab6470c3621_25432256',
+  'unifunc' => 'content_668adaa651c543_73380907',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668ab6470c3621_25432256 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa651c543_73380907 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
+));
 ?><!-- MODULE st sttags -->
 <section class="block tags_block  col-lg-2-4 ">
 		<div class="title_block ">

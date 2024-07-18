@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/_partials/pagination-sample.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab441a478f5_68005284',
+  'unifunc' => 'content_668adaa62910c4_42527205',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab441a478f5_68005284 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa62910c4_42527205 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('last_page', false);
 $_smarty_tpl->_assignInScope('last_page_number', '');
 $_smarty_tpl->_assignInScope('pagination_pages', $_smarty_tpl->tpl_vars['pagination']->value['pages']);

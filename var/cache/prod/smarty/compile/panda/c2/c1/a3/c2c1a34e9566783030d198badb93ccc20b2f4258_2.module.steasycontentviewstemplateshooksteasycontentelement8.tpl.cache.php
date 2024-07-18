@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:steasycontentviewstemplateshooksteasycontentelement8.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42acb2594_87550988',
+  'unifunc' => 'content_669956d5749ae0_17672391',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,9 +22,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/slider/script.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42acb2594_87550988 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669956d5749ae0_17672391 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
-$_smarty_tpl->compiled->nocache_hash = '192407714668ab42ac9cea0_95732691';
+$_smarty_tpl->compiled->nocache_hash = '91649775669956d572b4c6_87399781';
 $_smarty_tpl->_assignInScope('pro_per_fw', ((isset($_smarty_tpl->tpl_vars['sub_column']->value['st_per_fw'])) && $_smarty_tpl->tpl_vars['sub_column']->value['st_per_fw'] ? $_smarty_tpl->tpl_vars['sub_column']->value['st_per_fw'] : 4));
 $_smarty_tpl->_assignInScope('pro_per_xxl', ((isset($_smarty_tpl->tpl_vars['sub_column']->value['st_per_xxl'])) && $_smarty_tpl->tpl_vars['sub_column']->value['st_per_xxl'] ? $_smarty_tpl->tpl_vars['sub_column']->value['st_per_xxl'] : 4));
 $_smarty_tpl->_assignInScope('pro_per_xl', ((isset($_smarty_tpl->tpl_vars['sub_column']->value['st_per_xl'])) && $_smarty_tpl->tpl_vars['sub_column']->value['st_per_xl'] ? $_smarty_tpl->tpl_vars['sub_column']->value['st_per_xl'] : 3));
@@ -126,7 +126,7 @@ $_smarty_tpl->tpl_vars['element']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['element']->value) {
 $_smarty_tpl->tpl_vars['element']->do_else = false;
 $_smarty_tpl->tpl_vars['element']->iteration++;
-$__foreach_element_57_saved = $_smarty_tpl->tpl_vars['element'];
+$__foreach_element_1_saved = $_smarty_tpl->tpl_vars['element'];
 ?>
             <div id="steasy_element_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['element']->value['id_st_easy_content_element'], ENT_QUOTES, 'UTF-8');?>
 " class="col-fw-<?php echo htmlspecialchars((string) smarty_modifier_replace((12/$_smarty_tpl->tpl_vars['pro_per_fw']->value),'.','-'), ENT_QUOTES, 'UTF-8');?>
@@ -152,7 +152,7 @@ if ($_smarty_tpl->tpl_vars['element']->iteration%$_smarty_tpl->tpl_vars['pro_per
                 </div>
             </div>
         <?php
-$_smarty_tpl->tpl_vars['element'] = $__foreach_element_57_saved;
+$_smarty_tpl->tpl_vars['element'] = $__foreach_element_1_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>  
         </div>
@@ -170,7 +170,7 @@ $_smarty_tpl->tpl_vars['element']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['element']->value) {
 $_smarty_tpl->tpl_vars['element']->do_else = false;
 $_smarty_tpl->tpl_vars['element']->iteration++;
-$__foreach_element_58_saved = $_smarty_tpl->tpl_vars['element'];
+$__foreach_element_2_saved = $_smarty_tpl->tpl_vars['element'];
 ?>
                     <div id="steasy_element_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['element']->value['id_st_easy_content_element'], ENT_QUOTES, 'UTF-8');?>
 " class="swiper-slide">
@@ -184,7 +184,7 @@ $__foreach_element_58_saved = $_smarty_tpl->tpl_vars['element'];
                         </div>
                     </div>
                     <?php
-$_smarty_tpl->tpl_vars['element'] = $__foreach_element_58_saved;
+$_smarty_tpl->tpl_vars['element'] = $__foreach_element_2_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                 </div>

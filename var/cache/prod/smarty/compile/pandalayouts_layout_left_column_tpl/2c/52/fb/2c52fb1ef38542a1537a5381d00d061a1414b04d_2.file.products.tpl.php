@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/products.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab441a4b768_36865020',
+  'unifunc' => 'content_668adaa6294b44_19889323',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:_partials/pagination.tpl' => 1,
   ),
 ),false)) {
-function content_668ab441a4b768_36865020 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa6294b44_19889323 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -31,18 +31,18 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
   <?php $_smarty_tpl->_subTemplateRender('file:catalog/_partials/miniatures/list-item.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('products'=>$_smarty_tpl->tpl_vars['listing']->value['products']), 0, false);
 ?> 
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_818520257668ab441a4a828_44250443', 'pagination');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1235278941668adaa6293b99_01103958', 'pagination');
 ?>
 
   
 </div><?php }
 /* {block 'pagination'} */
-class Block_818520257668ab441a4a828_44250443 extends Smarty_Internal_Block
+class Block_1235278941668adaa6293b99_01103958 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'pagination' => 
   array (
-    0 => 'Block_818520257668ab441a4a828_44250443',
+    0 => 'Block_1235278941668adaa6293b99_01103958',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

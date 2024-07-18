@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stbannerviewstemplateshookst_banner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42ae7f056_45446722',
+  'unifunc' => 'content_668adaa626ff33_42601531',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,8 +22,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stbanner/views/templates/hook/stbanner-column.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42ae7f056_45446722 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1133636010668ab42ae732c0_18575331';
+function content_668adaa626ff33_42601531 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1163555413668adaa6262993_11200120';
 if ((isset($_smarty_tpl->tpl_vars['groups']->value))) {?>
     <!-- MODULE st banner -->
     <?php

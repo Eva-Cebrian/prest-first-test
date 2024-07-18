@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stthemeeditorviewstemplatessliderheading.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42ab9e679_11852224',
+  'unifunc' => 'content_668adaa62254d8_82290639',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42ab9e679_11852224 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1886651694668ab42ab98a24_97181212';
+function content_668adaa62254d8_82290639 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '891263880668adaa621f012_54027885';
 if ($_smarty_tpl->tpl_vars['title']->value) {?>
 <div class="title_block flex_container title_align_<?php if ($_smarty_tpl->tpl_vars['column_slider']->value) {?>0<?php } else {
 echo htmlspecialchars((string) (int)$_smarty_tpl->tpl_vars['title_position']->value, ENT_QUOTES, 'UTF-8');

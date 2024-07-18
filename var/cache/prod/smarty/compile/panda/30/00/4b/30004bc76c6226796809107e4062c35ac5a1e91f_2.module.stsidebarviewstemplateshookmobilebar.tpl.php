@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stsidebarviewstemplateshookmobilebar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42a8dddb0_63143659',
+  'unifunc' => 'content_668adaa6057f86_73071593',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stsearchbar/views/templates/hook/stsearchbar-block.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42a8dddb0_63143659 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa6057f86_73071593 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 if (count($_smarty_tpl->tpl_vars['mobilebar']->value)) {?>
 	<!-- MODULE st stsidebar -->

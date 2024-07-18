@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:steasycontentviewstemplateshooksteasycontentelement10.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42aa74e96_37155784',
+  'unifunc' => 'content_669956d5545f68_01125975',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42aa74e96_37155784 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1396228372668ab42aa70ee1_72529946';
+function content_669956d5545f68_01125975 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '826474313669956d553b623_46128848';
 ?>
 <div class="stsocial_block <?php if ((isset($_smarty_tpl->tpl_vars['sub_column']->value['st_icon_align']))) {?> text-<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['sub_column']->value['st_icon_align'], ENT_QUOTES, 'UTF-8');?>
  <?php }?> <?php if ((isset($_smarty_tpl->tpl_vars['sub_column']->value['st_icon_mobile_align'])) && $_smarty_tpl->tpl_vars['sub_column']->value['st_icon_mobile_align']) {?> text-md-<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['sub_column']->value['st_icon_mobile_align'], ENT_QUOTES, 'UTF-8');?>

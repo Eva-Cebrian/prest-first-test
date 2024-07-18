@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stswiperviewstemplateshookstswiperblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42aa1e268_89437328',
+  'unifunc' => 'content_668adaa61dba81_69058635',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42aa1e268_89437328 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa61dba81_69058635 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.regex_replace.php','function'=>'smarty_modifier_regex_replace',),));
-$_smarty_tpl->compiled->nocache_hash = '1304654934668ab42aa0f264_05789919';
+$_smarty_tpl->compiled->nocache_hash = '258511781668adaa61caeb5_90999281';
 ?>
 <div class="swiper-slide" <?php if ($_smarty_tpl->tpl_vars['slides']->value['templates'] == 3 && $_smarty_tpl->tpl_vars['slides']->value['slides_per_view'] && (isset($_smarty_tpl->tpl_vars['banner_data']->value['width'])) && $_smarty_tpl->tpl_vars['banner_data']->value['width']) {?>style="width:<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['banner_data']->value['width'], ENT_QUOTES, 'UTF-8');?>
 px;"<?php }?>>

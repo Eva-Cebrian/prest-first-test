@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stpagebannerviewstemplateshookstpagebanner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab441988784_33882591',
+  'unifunc' => 'content_668adaa61014b1_38056751',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab441988784_33882591 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '826797739668ab441982018_43596777';
+function content_668adaa61014b1_38056751 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1460311444668adaa60fae12_61211152';
 if ((isset($_smarty_tpl->tpl_vars['banner']->value)) && $_smarty_tpl->tpl_vars['banner']->value) {?>
 <!-- MODULE st stpagebanner -->
 <div id="<?php if ($_smarty_tpl->tpl_vars['banner']->value) {?>page_banner_container_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['banner']->value['id_st_page_banner'], ENT_QUOTES, 'UTF-8');

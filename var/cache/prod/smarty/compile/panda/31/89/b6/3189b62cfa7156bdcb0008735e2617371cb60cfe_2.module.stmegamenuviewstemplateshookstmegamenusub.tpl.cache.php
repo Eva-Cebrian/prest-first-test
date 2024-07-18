@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stmegamenuviewstemplateshookstmegamenusub.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42a9dd1f4_11662642',
+  'unifunc' => 'content_668adaa60e1572_94360849',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,9 +24,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stmegamenu/views/templates/hook/stmegamenu-link.tpl' => 2,
   ),
 ),false)) {
-function content_668ab42a9dd1f4_11662642 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa60e1572_94360849 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.regex_replace.php','function'=>'smarty_modifier_regex_replace',),));
-$_smarty_tpl->compiled->nocache_hash = '90780891668ab42a9ac574_24843161';
+$_smarty_tpl->compiled->nocache_hash = '830740680668adaa60aff28_15845783';
 if ($_smarty_tpl->tpl_vars['mm']->value['is_mega']) {?>
 	<div class="<?php if (!(isset($_smarty_tpl->tpl_vars['is_mega_menu_vertical']->value))) {?>stmenu_sub<?php } else { ?>stmenu_vs<?php }?> style_wide col-md-<?php echo htmlspecialchars((string) smarty_modifier_replace(($_smarty_tpl->tpl_vars['mm']->value['width']*10/10),'.','-'), ENT_QUOTES, 'UTF-8');?>
 ">
@@ -111,7 +111,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['menu']->value) {
 $_smarty_tpl->tpl_vars['menu']->do_else = false;
 $_smarty_tpl->tpl_vars['menu']->iteration++;
 $_smarty_tpl->tpl_vars['menu']->last = $_smarty_tpl->tpl_vars['menu']->iteration === $_smarty_tpl->tpl_vars['menu']->total;
-$__foreach_menu_31_saved = $_smarty_tpl->tpl_vars['menu'];
+$__foreach_menu_35_saved = $_smarty_tpl->tpl_vars['menu'];
 ?>
 								<div class="col-md-<?php echo htmlspecialchars((string) smarty_modifier_replace(((12/$_smarty_tpl->tpl_vars['block']->value['items_md'])*10/10),'.','-'), ENT_QUOTES, 'UTF-8');?>
 ">
@@ -142,7 +142,7 @@ $_smarty_tpl->_assignInScope('granditem', 1);
 								</div><div class="row">
 								<?php }?>
 							<?php
-$_smarty_tpl->tpl_vars['menu'] = $__foreach_menu_31_saved;
+$_smarty_tpl->tpl_vars['menu'] = $__foreach_menu_35_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 							</div>
@@ -209,7 +209,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['brand']->value) 
 $_smarty_tpl->tpl_vars['brand']->do_else = false;
 $_smarty_tpl->tpl_vars['brand']->iteration++;
 $_smarty_tpl->tpl_vars['brand']->last = $_smarty_tpl->tpl_vars['brand']->iteration === $_smarty_tpl->tpl_vars['brand']->total;
-$__foreach_brand_33_saved = $_smarty_tpl->tpl_vars['brand'];
+$__foreach_brand_37_saved = $_smarty_tpl->tpl_vars['brand'];
 ?>
 								<div class="col-md-<?php echo htmlspecialchars((string) smarty_modifier_replace(((12/$_smarty_tpl->tpl_vars['block']->value['items_md'])*10/10),'.','-'), ENT_QUOTES, 'UTF-8');?>
 ">
@@ -227,7 +227,7 @@ if ($_smarty_tpl->tpl_vars['block']->value['new_window']) {?> target="_blank"<?p
 								</div><div class="row">
 								<?php }?>
 							<?php
-$_smarty_tpl->tpl_vars['brand'] = $__foreach_brand_33_saved;
+$_smarty_tpl->tpl_vars['brand'] = $__foreach_brand_37_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 							</div>
@@ -243,7 +243,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['brand']->value) 
 $_smarty_tpl->tpl_vars['brand']->do_else = false;
 $_smarty_tpl->tpl_vars['brand']->iteration++;
 $_smarty_tpl->tpl_vars['brand']->last = $_smarty_tpl->tpl_vars['brand']->iteration === $_smarty_tpl->tpl_vars['brand']->total;
-$__foreach_brand_34_saved = $_smarty_tpl->tpl_vars['brand'];
+$__foreach_brand_38_saved = $_smarty_tpl->tpl_vars['brand'];
 ?>
 								<div class="col-md-<?php echo htmlspecialchars((string) smarty_modifier_replace(((12/$_smarty_tpl->tpl_vars['block']->value['items_md'])*10/10),'.','-'), ENT_QUOTES, 'UTF-8');?>
 ">
@@ -273,7 +273,7 @@ if ((isset($_smarty_tpl->tpl_vars['sttheme']->value)) && $_smarty_tpl->tpl_vars[
 					                </a>
 								</div>
 							<?php
-$_smarty_tpl->tpl_vars['brand'] = $__foreach_brand_34_saved;
+$_smarty_tpl->tpl_vars['brand'] = $__foreach_brand_38_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 							</div>
@@ -304,7 +304,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['menu']->value) {
 $_smarty_tpl->tpl_vars['menu']->do_else = false;
 $_smarty_tpl->tpl_vars['menu']->iteration++;
 $_smarty_tpl->tpl_vars['menu']->last = $_smarty_tpl->tpl_vars['menu']->iteration === $_smarty_tpl->tpl_vars['menu']->total;
-$__foreach_menu_35_saved = $_smarty_tpl->tpl_vars['menu'];
+$__foreach_menu_39_saved = $_smarty_tpl->tpl_vars['menu'];
 ?>
 											<?php if ($_smarty_tpl->tpl_vars['menu']->value['hide_on_mobile'] == 2) {
 continue 1;
@@ -312,7 +312,7 @@ continue 1;
 											<?php $_smarty_tpl->_subTemplateRender("module:stmegamenu/views/templates/hook/stmegamenu-link.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('nofollow'=>$_smarty_tpl->tpl_vars['block']->value['nofollow'],'new_window'=>$_smarty_tpl->tpl_vars['block']->value['new_window'],'menus'=>$_smarty_tpl->tpl_vars['menu']->value,'m_level'=>2), 0, true);
 ?>
 										<?php
-$_smarty_tpl->tpl_vars['menu'] = $__foreach_menu_35_saved;
+$_smarty_tpl->tpl_vars['menu'] = $__foreach_menu_39_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 										</ul>
@@ -380,7 +380,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['menu']->value) {
 $_smarty_tpl->tpl_vars['menu']->do_else = false;
 $_smarty_tpl->tpl_vars['menu']->iteration++;
 $_smarty_tpl->tpl_vars['menu']->last = $_smarty_tpl->tpl_vars['menu']->iteration === $_smarty_tpl->tpl_vars['menu']->total;
-$__foreach_menu_39_saved = $_smarty_tpl->tpl_vars['menu'];
+$__foreach_menu_43_saved = $_smarty_tpl->tpl_vars['menu'];
 ?><li class="ml_level_1"><?php $_smarty_tpl->_assignInScope('has_children', ((isset($_smarty_tpl->tpl_vars['menu']->value['children'])) && is_array($_smarty_tpl->tpl_vars['menu']->value['children']) && count($_smarty_tpl->tpl_vars['menu']->value['children'])));?><a href="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['menu']->value['link'], ENT_QUOTES, 'UTF-8');?>
 "<?php if (!$_smarty_tpl->tpl_vars['menu_title']->value) {?> title="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['menu']->value['name'], ENT_QUOTES, 'UTF-8');?>
 "<?php }
@@ -389,7 +389,7 @@ if ($_smarty_tpl->tpl_vars['block']->value['new_window']) {?> target="_blank"<?p
 if ($_smarty_tpl->tpl_vars['has_children']->value) {?><span class="is_parent_icon"><b class="is_parent_icon_h"></b><b class="is_parent_icon_v"></b></span><?php }?></a><?php if ($_smarty_tpl->tpl_vars['has_children']->value) {
 $_smarty_tpl->_subTemplateRender("module:stmegamenu/views/templates/hook/stmegamenu-category.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('nofollow'=>$_smarty_tpl->tpl_vars['block']->value['nofollow'],'new_window'=>$_smarty_tpl->tpl_vars['block']->value['new_window'],'menus'=>$_smarty_tpl->tpl_vars['menu']->value['children'],'m_level'=>2), 0, true);
 }?></li><?php
-$_smarty_tpl->tpl_vars['menu'] = $__foreach_menu_39_saved;
+$_smarty_tpl->tpl_vars['menu'] = $__foreach_menu_43_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 } elseif ($_smarty_tpl->tpl_vars['block']->value['subtype'] == 1 || $_smarty_tpl->tpl_vars['block']->value['subtype'] == 3) {?><li class="ml_level_1"><?php $_smarty_tpl->_assignInScope('has_children', ((isset($_smarty_tpl->tpl_vars['block']->value['children']['children'])) && count($_smarty_tpl->tpl_vars['block']->value['children']['children'])));?><a id="st_ma_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['block']->value['id_st_mega_menu'], ENT_QUOTES, 'UTF-8');?>
@@ -423,12 +423,12 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['menu']->value) {
 $_smarty_tpl->tpl_vars['menu']->do_else = false;
 $_smarty_tpl->tpl_vars['menu']->iteration++;
 $_smarty_tpl->tpl_vars['menu']->last = $_smarty_tpl->tpl_vars['menu']->iteration === $_smarty_tpl->tpl_vars['menu']->total;
-$__foreach_menu_40_saved = $_smarty_tpl->tpl_vars['menu'];
+$__foreach_menu_44_saved = $_smarty_tpl->tpl_vars['menu'];
 if ($_smarty_tpl->tpl_vars['menu']->value['hide_on_mobile'] == 2) {
 continue 1;
 }
 $_smarty_tpl->_subTemplateRender("module:stmegamenu/views/templates/hook/stmegamenu-link.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('nofollow'=>$_smarty_tpl->tpl_vars['block']->value['nofollow'],'new_window'=>$_smarty_tpl->tpl_vars['block']->value['new_window'],'menus'=>$_smarty_tpl->tpl_vars['menu']->value,'m_level'=>2), 0, true);
-$_smarty_tpl->tpl_vars['menu'] = $__foreach_menu_40_saved;
+$_smarty_tpl->tpl_vars['menu'] = $__foreach_menu_44_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?></ul><?php }?></li><?php } elseif ($_smarty_tpl->tpl_vars['block']->value['item_t'] == 5 && $_smarty_tpl->tpl_vars['block']->value['html']) {?><li class="ml_level_1"><div id="st_menu_block_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['block']->value['id_st_mega_menu'], ENT_QUOTES, 'UTF-8');?>
 " class="style_content"><?php echo $_smarty_tpl->tpl_vars['block']->value['html'];?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:stbrandssliderviewstemplateshookstbrandsslider.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42aed66e3_87161135',
+  'unifunc' => 'content_669956d593d171_45401095',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,9 +21,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/slider/script.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42aed66e3_87161135 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669956d593d171_45401095 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/vendor/smarty/smarty/libs/plugins/modifier.regex_replace.php','function'=>'smarty_modifier_regex_replace',),));
-$_smarty_tpl->compiled->nocache_hash = '462463605668ab42aebcc03_41048698';
+$_smarty_tpl->compiled->nocache_hash = '370501181669956d591da68_52310967';
 ?>
 <!-- MODULE st stbrandsslider -->
 <div id="brands_slider_container_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['hook_hash']->value, ENT_QUOTES, 'UTF-8');?>

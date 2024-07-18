@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stwishlistviewstemplateshooksidebar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42b1fbbb1_20503814',
+  'unifunc' => 'content_668adaa6727025_36464978',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stwishlist/views/templates/hook/item.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42b1fbbb1_20503814 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa6727025_36464978 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="st-menu" id="side_wishlist">
     <div class="st-menu-header flex_container">
         <h3 class="st-menu-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Wishlist','d'=>'Shop.Theme.Panda'),$_smarty_tpl ) );?>

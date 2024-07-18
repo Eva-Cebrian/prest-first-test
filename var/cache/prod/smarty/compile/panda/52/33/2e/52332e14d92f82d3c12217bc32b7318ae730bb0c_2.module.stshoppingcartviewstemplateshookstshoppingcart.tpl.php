@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stshoppingcartviewstemplateshookstshoppingcart.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42a960313_77520502',
+  'unifunc' => 'content_668adaa606ac68_56511038',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stshoppingcart/views/templates/hook/stshoppingcart-list.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42a960313_77520502 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa606ac68_56511038 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- MODULE st stshoppingcart -->
 <div class="blockcart dropdown_wrap top_bar_item shopping_cart_style_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['block_cart_style']->value, ENT_QUOTES, 'UTF-8');?>
  <?php if ($_smarty_tpl->tpl_vars['block_cart_style']->value == 4) {?> header_icon_btn_3 <?php }?> clearfix" data-refresh-url="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['refresh_url']->value, ENT_QUOTES, 'UTF-8');?>

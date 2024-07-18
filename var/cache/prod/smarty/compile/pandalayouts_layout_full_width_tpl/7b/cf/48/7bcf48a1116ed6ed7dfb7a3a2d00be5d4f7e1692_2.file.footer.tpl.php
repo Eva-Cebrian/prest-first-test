@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:13:04
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/_partials/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42aee9653_54699765',
+  'unifunc' => 'content_668adab0e4eb08_54716646',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:_partials/footer-bottom.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42aee9653_54699765 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adab0e4eb08_54716646 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -30,15 +30,15 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <div id="footer_before_container"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>"displayFooterBefore"),$_smarty_tpl ) );?>
 </div>
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_62867019668ab42aedf1e3_79457979', 'hook_stacked_footer');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2011806854668adab0e43cc7_05122510', 'hook_stacked_footer');
 ?>
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_175378138668ab42aee6024_83821869', 'hook_footer');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_405016503668adab0e4b085_14741749', 'hook_footer');
 ?>
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1851206997668ab42aee7ac2_45306562', 'hook_footer_after');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1361344420668adab0e4cd63_56867504', 'hook_footer_after');
 ?>
 
 
@@ -46,12 +46,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1851206997668ab42a
 ?>
 </footer><?php }
 /* {block 'hook_stacked_footer'} */
-class Block_62867019668ab42aedf1e3_79457979 extends Smarty_Internal_Block
+class Block_2011806854668adab0e43cc7_05122510 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hook_stacked_footer' => 
   array (
-    0 => 'Block_62867019668ab42aedf1e3_79457979',
+    0 => 'Block_2011806854668adab0e43cc7_05122510',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -91,12 +91,12 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfil
 }
 /* {/block 'hook_stacked_footer'} */
 /* {block 'hook_footer'} */
-class Block_175378138668ab42aee6024_83821869 extends Smarty_Internal_Block
+class Block_405016503668adab0e4b085_14741749 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hook_footer' => 
   array (
-    0 => 'Block_175378138668ab42aee6024_83821869',
+    0 => 'Block_405016503668adab0e4b085_14741749',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -122,12 +122,12 @@ $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);?>
 }
 /* {/block 'hook_footer'} */
 /* {block 'hook_footer_after'} */
-class Block_1851206997668ab42aee7ac2_45306562 extends Smarty_Internal_Block
+class Block_1361344420668adab0e4cd63_56867504 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'hook_footer_after' => 
   array (
-    0 => 'Block_1851206997668ab42aee7ac2_45306562',
+    0 => 'Block_1361344420668adab0e4cd63_56867504',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

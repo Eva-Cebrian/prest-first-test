@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stowlcarouselviewstemplateshookstowlcarousel.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab441a1e774_36103813',
+  'unifunc' => 'content_668adaa624ba96_56514146',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stowlcarousel/views/templates/hook/stowlcarousel-".((string)$_smarty_tpl->tpl_vars[\'group\']->value[\'templates\']).".tpl' => 1,
   ),
 ),false)) {
-function content_668ab441a1e774_36103813 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '34372335668ab441a1a156_15628399';
+function content_668adaa624ba96_56514146 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '911575227668adaa6247420_96689750';
 if ((isset($_smarty_tpl->tpl_vars['slide_group']->value))) {?>
     <!-- MODULE st stowlcarousel -->
 <!-- MODULE st owl carousel -->

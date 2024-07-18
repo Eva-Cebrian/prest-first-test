@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:37:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stmegamenuviewstemplateshookstmobilemenu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab6470d4c62_89999972',
+  'unifunc' => 'content_668adaa6589cf2_75810031',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668ab6470d4c62_89999972 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa6589cf2_75810031 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
+));
 ?><!-- MODULE st stmegamenu -->
 <div class="st-menu" id="side_stmobilemenu">
   <div class="st-menu-header flex_container">

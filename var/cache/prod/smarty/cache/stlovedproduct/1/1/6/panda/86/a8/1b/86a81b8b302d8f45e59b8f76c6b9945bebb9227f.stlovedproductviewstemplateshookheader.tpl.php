@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:37:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:53
   from 'module:stlovedproductviewstemplateshookheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab646eda5f3_15514287',
+  'unifunc' => 'content_668adaa5b2aa23_71769252',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668ab646eda5f3_15514287 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa5b2aa23_71769252 (Smarty_Internal_Template $_smarty_tpl) {
 ?><style>.love_product .btn_text{margin-right:4px;}</style>
 <?php }
 }

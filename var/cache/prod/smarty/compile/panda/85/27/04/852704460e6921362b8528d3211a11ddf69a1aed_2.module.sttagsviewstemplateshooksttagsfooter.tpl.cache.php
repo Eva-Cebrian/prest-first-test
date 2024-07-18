@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:sttagsviewstemplateshooksttagsfooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42b0884c2_40134699',
+  'unifunc' => 'content_668adaa6516005_56093526',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:sttags/views/templates/hook/sttags-items.tpl' => 1,
   ),
 ),false)) {
-function content_668ab42b0884c2_40134699 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '267754450668ab42b086229_12915041';
+function content_668adaa6516005_56093526 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '589535834668adaa6513b69_60401839';
 ?>
 <!-- MODULE st sttags -->
 <section class="block tags_block <?php if (!$_smarty_tpl->tpl_vars['is_stacked_footer']->value) {?> col-lg-<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['blocktags_wide_on_footer']->value, ENT_QUOTES, 'UTF-8');?>

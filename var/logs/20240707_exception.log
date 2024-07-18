@@ -1,0 +1,2 @@
+*ERROR* 	v8.1.7	2024/07/07 - 19:57:22: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;base_datos_ps.ps_category_lang&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.7	2024/07/07 - 19:59:08: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;cl.additional_description&#039; in &#039;field list&#039; at line 151 in file classes/db/DbPDO.php

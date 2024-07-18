@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-18 19:54:29
   from 'module:steasycontentviewstemplateshooktextboxes1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42acbe606_25274411',
+  'unifunc' => 'content_669956d5755a59_89041145',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42acbe606_25274411 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '531449105668ab42acb61e2_61146107';
+function content_669956d5755a59_89041145 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '286391803669956d574d0a7_43468280';
 if ((isset($_smarty_tpl->tpl_vars['element']->value['st_image'])) && $_smarty_tpl->tpl_vars['element']->value['st_image']) {?>
 <img src="<?php if (call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'strpos' ][ 0 ], array( $_smarty_tpl->tpl_vars['element']->value['st_image'],'/modules/' )) !== false) {
 echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['element']->value['st_image'], ENT_QUOTES, 'UTF-8');

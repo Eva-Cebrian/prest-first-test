@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:13:04
   from 'module:stlovedproductviewstemplateshookfly.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42ac334f9_81737072',
+  'unifunc' => 'content_668adab0e07bc9_83166007',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42ac334f9_81737072 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '1669430497668ab42ac30066_03233015';
+function content_668adab0e07bc9_83166007 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1745397083668adab0e04a74_99677984';
 if ((isset($_smarty_tpl->tpl_vars['id_source']->value)) && $_smarty_tpl->tpl_vars['id_source']->value) {?>
 <a class="add_to_love hover_fly_btn <?php if ((isset($_smarty_tpl->tpl_vars['classname']->value))) {?> <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['classname']->value, ENT_QUOTES, 'UTF-8');?>
  <?php }?> btn-spin pro_right_item <?php if ((isset($_smarty_tpl->tpl_vars['fromnocache']->value)) && $_smarty_tpl->tpl_vars['fromnocache']->value && (isset($_smarty_tpl->tpl_vars['is_loved']->value)) && $_smarty_tpl->tpl_vars['is_loved']->value) {?> st_added <?php }?> love_<?php if ((isset($_smarty_tpl->tpl_vars['love_blog']->value)) && $_smarty_tpl->tpl_vars['love_blog']->value) {?>2<?php } else { ?>1<?php }?>_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['id_source']->value, ENT_QUOTES, 'UTF-8');?>

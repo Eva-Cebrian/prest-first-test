@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stmegamenuviewstemplateshookstmegamenucolumn.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab4419ec286_56966019',
+  'unifunc' => 'content_668adaa61a9590_83297684',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,8 +22,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:stmegamenu/views/templates/hook/stmobilemenu-ul.tpl' => 1,
   ),
 ),false)) {
-function content_668ab4419ec286_56966019 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '136945749668ab4419eaeb5_59655314';
+function content_668adaa61a9590_83297684 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '335788305668adaa61a80f6_92611595';
 if ((isset($_smarty_tpl->tpl_vars['stmenu']->value)) && is_array($_smarty_tpl->tpl_vars['stmenu']->value) && count($_smarty_tpl->tpl_vars['stmenu']->value)) {?>
 <!-- Menu -->
 <div id="st_mega_menu_column" class="block column_block">

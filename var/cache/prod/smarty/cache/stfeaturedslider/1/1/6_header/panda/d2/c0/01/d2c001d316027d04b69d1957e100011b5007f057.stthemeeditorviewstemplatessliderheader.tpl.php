@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:37:42
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:53
   from 'module:stthemeeditorviewstemplatessliderheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab646e94636_71401788',
+  'unifunc' => 'content_668adaa59d8d43_78385117',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_668ab646e94636_71401788 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa59d8d43_78385117 (Smarty_Internal_Template $_smarty_tpl) {
 ?><style>.stfeaturedslider_container.products_container .title_style_0,.stfeaturedslider_container.products_container .title_style_0 .title_block_inner{border-bottom-width:0px;}.stfeaturedslider_container.products_container .title_style_0 .title_block_inner{margin-bottom:-0px;}.stfeaturedslider_container.products_container .title_style_1 .flex_child, .stfeaturedslider_container.products_container .title_style_3 .flex_child{border-bottom-width:0px;}.stfeaturedslider_container.products_container .title_style_2 .flex_child{border-bottom-width:0px;border-top-width:0px;}</style>
 <?php }
 }

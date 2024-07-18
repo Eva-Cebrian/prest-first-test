@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:28:43
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from 'module:stsocialviewstemplateshookstsocialside.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab42b172d45_87876591',
+  'unifunc' => 'content_668adaa6602541_73800607',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab42b172d45_87876591 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa6602541_73800607 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="st-menu" id="side_share">
 	<div class="st-menu-header flex_container">
 		<h3 class="st-menu-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Share','d'=>'Shop.Theme.Panda'),$_smarty_tpl ) );?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-07-07 17:29:05
+/* Smarty version 4.3.4, created on 2024-07-07 20:12:54
   from '/Applications/XAMPP/xamppfiles/htdocs/tienda-prestashop/themes/panda/templates/catalog/_partials/sort-orders.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_668ab441a337c2_26420578',
+  'unifunc' => 'content_668adaa627de48_22325561',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668ab441a337c2_26420578 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668adaa627de48_22325561 (Smarty_Internal_Template $_smarty_tpl) {
 ?>  <div class="products-sort-order dropdown_wrap mar_r1">
     <a href="javascript:" class="dropdown_tri dropdown_tri_in" rel="nofollow" aria-haspopup="true" aria-expanded="false">
       <?php if ((isset($_smarty_tpl->tpl_vars['listing']->value['sort_selected'])) && $_smarty_tpl->tpl_vars['listing']->value['sort_selected']) {
